@@ -3,7 +3,7 @@ library riverpod_infinite_scroll_pagination;
 
 import 'dart:async';
 
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_infinite_scroll_pagination/riverpod_infinite_scroll_pagination.dart';
 
 ///Mixin for default AsyncNotifiers (`AutoDisposeAsyncNotifier`)
@@ -85,7 +85,6 @@ mixin PaginatedDataMixin<T> on AutoDisposeAsyncNotifier<List<T>>
   ///
   /// You may override this in your notifiers
   Future<void> getNextPage() async {
-    print('Called getNextPage');
     state = const AsyncLoading();
     state = await AsyncValue.guard(() => _dataFetcher!.fetchData());
   }
