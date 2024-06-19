@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_infinite_scroll_pagination/src/extensions/widget.dart';
 import 'package:riverpod_infinite_scroll_pagination/src/paginated_grid_view.dart';
 import 'package:riverpod_infinite_scroll_pagination/src/widgets/generic_error.dart';
