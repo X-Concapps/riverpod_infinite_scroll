@@ -3,7 +3,7 @@ library riverpod_infinite_scroll_pagination;
 
 import 'dart:async';
 
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_infinite_scroll_pagination/riverpod_infinite_scroll_pagination.dart';
 
 ///Mixin for KeepAlive Providers
