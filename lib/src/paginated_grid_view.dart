@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod/riverpod.dart';
 import 'package:riverpod_infinite_scroll_pagination/riverpod_infinite_scroll_pagination.dart';
 import 'package:riverpod_infinite_scroll_pagination/src/mixins/paginated_grid_mixin.dart';
 import 'package:riverpod_infinite_scroll_pagination/src/types/types.dart';
